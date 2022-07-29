@@ -1,0 +1,115 @@
+*,::before, ::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #badfd7;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  background-color: #60c0c1;
+}
+
+.logo {
+  width: 50px;
+  margin-left: 40px;
+  display: block;
+}
+
+.menu ul {
+  display: flex;
+  gap: 100px;
+  margin-right: 50px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li:hover {
+  cursor: pointer;
+}
+
+/* Banner CSS */
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+}
+
+.image span {
+  width: 100%;
+  position: relative;
+  display: grid;
+  place-items: center;
+  padding-top: 170px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* Card CSS */
+.cards-wrapper {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  padding-block: 230px;
+  width: 100%;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  width: 60%;
+  background-color: #f8e4db;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card-image {
+  width: 800px;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: larger;
+  padding: 10px;
+}
+
+.title span {
+  font-size: x-large;
+  font-weight: 800;
+}
+
+.button a {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #61c0c2;
+  color: white;
+  border-radius: 5px;
+}
+
+.button a:hover {
+  background-color: #61c0c2c5;
+  color: black;
+}
